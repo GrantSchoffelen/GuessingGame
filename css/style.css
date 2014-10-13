@@ -5,11 +5,26 @@ body {
 	font-family: 'Open Sans', times; 
 }
 
+#french{
+	text-decoration: none; 
+	float: right; 
+	margin-right: 100px; 
+}
+
+#title_f{
+	float: right;
+	color: white;
+	clear: right; 
+	margin-top: 10px; 
+}
+
+
 nav{
 	text-align: center; 
 	padding: 10px 0;
 	margin: 20px 0 0;
-	color: white; 
+	color: white;
+	clear: both; 
 
 }
 
@@ -89,6 +104,19 @@ background: #356094;
 	content: "ARE YOU SURE YOU WANT A HINT?";
 } 
 
+#hint_f{
+	 border-radius: 4px;
+
+}
+
+#hint_f:hover span{
+	display:none;
+}
+
+#hint_f:hover:before{
+	content: "Etes-vous sûr de vouloir un indice?";
+} 
+
 
 #guessbox {
 	width: 300px; 
@@ -98,7 +126,7 @@ background: #356094;
 	 border-radius: 4px;
 }
 
-img {
+#question_mark {
 	max-width: 100%;
 	margin-bottom: 20px;  
 }
