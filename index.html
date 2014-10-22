@@ -10,7 +10,7 @@
 
 	   <link rel="icon" href="images/favicon.ico" type="image/question_mark icon">
 	</head>
-	<body>
+	<body class = "playing">
 		<a href="french.html" id ="french">
 <div id ="title_f">&nbsp;&nbsp;French</div>
 <img src="images/France-Flag-icon.png"></a>
@@ -37,10 +37,16 @@
 					
 				
 						<li><a><img src="images/question-mark-clip-art-free-5314.png" alt="Royalty free question mark" id="question_mark"></a></li>
+						<li id = "game_text"> Guess A Number!</li>
+						<li id = "proxy">???</li>
 						
-						<li><input type="text" placeholder="Guess A number between 1 &100" id ="guessbox"></input></li>
+						<li><input type="text" placeholder="Guess A number between 1 & 100" id ="guessbox"></input></li>
 						<li><button type= "submit" id = "guess_submit">Submit your Guess</button></li>
-						<li><button type= "submit" id = "hint"><span>Hint</span></button></li>
+						<li><button type= "submit" id = "newgame">Start new Game</button></li>
+						<li><button type= "submit" id = "hint">Hint1</button></li>
+						<a href= 'index.html'><li><button type= "submit" id = "newgame">Start new Game hack</button></li></a>
+						
+
 				</ul>	
 			</section>
 		</div>	
@@ -55,4 +61,7 @@
 			</footer>
 		</div>
     </body>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+
 </html>

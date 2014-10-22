@@ -1,8 +1,13 @@
 
-body {
+.playing {
 	background: url(http://3.bp.blogspot.com/_ycGxmckMHHA/TG14_WgC7DI/AAAAAAAAATc/h2W0rGt1S3I/s640/15-1.png) no-repeat center center fixed; 
 	background-size: cover; 
 	font-family: 'Open Sans', times; 
+}
+
+.winner{
+	background: red;
+
 }
 
 #french{
@@ -39,6 +44,18 @@ nav a:hover{
 	font-size: 25px; 
 }
 
+#game_text{
+	color: white;
+	font-size: 25px; 
+	margin-bottom: 0px; 
+}
+
+#proxy{
+	color: white;
+	font-size: 25px; 
+	margin-bottom: 10px;
+
+}
 
 
 footer {
@@ -95,14 +112,6 @@ background: #356094;
 	 border-radius: 4px;
 
 }
-
-#hint:hover span{
-	display:none;
-}
-
-#hint:hover:before{
-	content: "ARE YOU SURE YOU WANT A HINT?";
-} 
 
 #hint_f{
 	 border-radius: 4px;
