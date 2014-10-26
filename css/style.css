@@ -23,6 +23,21 @@
 	margin-top: 10px; 
 }
 
+#count{
+	color: white;
+	font-size: 25px; 
+}
+
+#last_guess{
+	color: white;
+	font-size: 25px; 
+}
+
+#guess_list{
+	color: white;
+	font-size: 25px; 
+}
+
 
 nav{
 	text-align: center; 
@@ -110,6 +125,12 @@ background: #356094;
 
 #hint{
 	 border-radius: 4px;
+	 margin-top: 10px; 
+
+}
+#newgame{
+	 border-radius: 4px;
+	 
 
 }
 
