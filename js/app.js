@@ -89,7 +89,7 @@ $(document).ready(function(){
              	$('#last_guess').text("Your guess " + guess + " is further than your guess " + guessed[i-1])
              }
              else if (proxy1>proxy){
-             	$('#last_guess').text("You're guess " + guess + " is closer than your guess " + guessed[i-1])
+             	$('#last_guess').text("Your guess " + guess + " is closer than your guess " + guessed[i-1])
 
              }
 			$('#count').text(5-counter + " Guesses Remaining")
